@@ -1,0 +1,10 @@
+[user]
+	name = brydude11
+	email = richterb@carleton.edu
+[core]
+	autocrlf = input
+	safecrlf = true
+[alias]
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dumb = cat-file -p

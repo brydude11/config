@@ -1,8 +1,18 @@
 #!/bin/bash
 
-if [ -f ~/.bashrc ]; 
+if [ -f ~/.bashrc ];
 then
 	rm ~/.bashrc
 fi
-ln -s ~/config/.bashrc ~/.bashrc 
+if [ -f ~/.gitconfig ];
+then
+	rm ~/.gitconfig
+fi
+if [ -f ~/.tmux.conf ];
+then
+	rm ~/.tmux.conf
+fi
+ln -s ~/config/.bashrc ~/.bashrc
+ln -s ~/config/.gitconfig ~/.gitconfig
+ln -s ~/config/.tmux.conf ~/.tmux.conf
 
