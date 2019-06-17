@@ -2,8 +2,9 @@
 alias t="tmux"
 alias f="nvim"
 alias .="cd .."
-alias e="touch"
+alias e="exit"
 alias c="clear"
+alias d="touch"
 # Default .bashrc
 # Original Author: Samuel Roeca
 #
