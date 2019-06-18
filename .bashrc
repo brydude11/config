@@ -5,6 +5,8 @@ alias .="cd .."
 alias e="exit"
 alias c="clear"
 alias d="touch"
+alias ~="cd ~"
+alias yay="echo You did it!"
 # Default .bashrc
 # Original Author: Samuel Roeca
 #
